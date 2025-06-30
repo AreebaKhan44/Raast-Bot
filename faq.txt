@@ -1,0 +1,335 @@
+Q: Is there an app for RAAST? Do we need to register on the RAAST app to use the platform?
+A: RAAST (Real-time Automated Settlement of Transactions) is a digital payment system developed by the State Bank of Pakistan (SBP).As of now, there isn't a standalone app dedicated solely to RAAST. Instead, RAAST is integrated into existing mobile banking applications of various banks in Pakistan. To use RAAST, users need to ensure they have access to a mobile banking app that supports RAAST services.Here’s what you generally need to do to use RAAST: 1. Bank Account: Ensure you have a bank account with a bank that supports RAAST.2. Mobile Banking App: Download and install the mobile banking app of your bank if you haven't already. 3. Registration: Within the mobile banking app, you will find an option to register for RAAST services. Follow the instructions provided by your bank to complete the registration process.4. Usage: Once registered, you can use RAAST to send and receive payments in real-time through your bank's mobile app.Each bank may have slightly different steps for registration and use, so it’s a good idea to check with your bank or visit their website for specific instructions.
+
+Q: Why is SBP promoting RAAST, and what benefits does it bring for SBP?
+A: The State Bank of Pakistan (SBP) is promoting RAAST for several reasons, including financial inclusion, efficiency, economic growth, transparency, and interoperability. It helps improve monetary policy implementation, financial stability, cost savings, and international competitiveness.
+
+Q: How is RAAST different from other payment platforms?
+A: RAAST differs from other platforms by offering real-time settlement, no fees, interoperability across banks, government backing, inclusive design, high transaction limits, and enhanced security.
+
+Q: I have multiple bank accounts, but can I only have one RAAST ID? How can I use RAAST on all bank accounts?
+A: Yes, you can only have one RAAST ID, but you can link it to multiple bank accounts by selecting a primary bank and using their app to register and link additional accounts.
+
+Q: How does a business account holder use RAAST?
+A: A business can use RAAST by registering through their bank's business portal, linking accounts, integrating with accounting systems, and using it for payroll, supplier payments, and receiving customer transactions.
+
+Q: Can you explain the technology/methodology behind RAAST and how it ensures near real-time payments?
+A: RAAST employs Distributed Ledger Technology, Immediate Payment Service, APIs for integration, a centralized settlement system, ISO 20022 messaging standards, and Two-Factor Authentication to ensure near real-time payments.
+
+Q: Can individuals use RAAST for international transactions, or is it limited to domestic payments?
+A: RAAST is currently designed for domestic payments within Pakistan and does not support international transactions.
+
+Q: Does RAAST support QR code payments?
+A: Yes, RAAST supports QR code payments, allowing users to make payments quickly by scanning a QR code.
+
+Q: Is there a limit on the transaction amount when using RAAST for fund transfer payments?
+A: Yes, there are limits on transaction amounts, which vary by bank, typically ranging from PKR 100,000 to PKR 1,000,000 for daily limits.
+
+Q: Is RAAST available to customers in all banks?
+A: Yes, RAAST is available to customers in all banks in Pakistan.
+
+Q: I have delinked RAAST ID from all accounts. However, I have been unable to connect it to Standard Chartered Bank?
+A: If you’re having trouble linking your RAAST ID to Standard Chartered Bank, ensure service availability, update the mobile banking app, check your RAAST ID status, and follow the linking instructions.
+
+Q: Can RAAST be used for online shopping and e-commerce transactions?
+A: Yes, RAAST can be used for online shopping and e-commerce transactions in Pakistan.
+
+Q: How safe is the RAAST platform? What measures are in place to stop fraud and scams related to digital payments through RAAST?
+A: RAAST is designed with regulatory oversight, secure infrastructure, authentication measures, fraud detection mechanisms, secure payment channels, customer awareness initiatives, dispute resolution processes, data privacy standards, and security certifications.
+
+Q: Can RAAST be used for bill payments, such as utility bills or mobile phone recharges?
+A: Yes, RAAST can be used for bill payments, including utility bills and mobile phone recharges, through the mobile banking app of the respective bank.
+
+
+
+Q: Is Raast secure?
+A: Yes, RAAST is secure. It uses two-factor authentication, encrypted APIs, fraud detection algorithms, notification alerts, and is regulated by the State Bank of Pakistan (SBP). Users are advised to follow best practices like securing their devices, monitoring transactions, using secure networks, and being cautious of phishing.
+
+Q: Is Raast payment safe?
+A: Reliability and enhanced security: RAAST uses more secure payment types, ensures that each transaction is authorized by the payer, and offers enhanced data protection and fraud detection services.
+
+Q: How can individuals without a smartphone or internet access benefit from the RAAST platform?
+A: They can use in-person transactions at bank branches, ATM services, bank-authorized agents, or phone banking. These methods allow access to RAAST services like fund transfers and bill payments.
+
+Q: Are there any specific requirements for individuals registering their mobile numbers as RAAST ID?
+A: Yes, users must have an active mobile number registered in their name, matching CNIC details with bank records, a RAAST-enabled bank account, complete mobile verification via SMS, and agree to RAAST's terms and conditions.
+
+
+
+Q: How can I determine which of my several bank accounts is linked to RAAST if I'm unable to connect any of them?
+A:
+If you have several bank accounts and are unsure which one is linked to RAAST, or if you’re unable to connect any of them, here’s a step-by-step guide to help you identify the RAAST-linked account and resolve connection issues:
+
+Steps to Identify and Connect Your RAAST-Linked Bank Account
+
+Check RAAST ID Status
+
+Verify Your RAAST ID:
+
+You can verify which account is linked to your RAAST ID through your bank or via the RAAST platform.
+
+Methods to Check:
+
+Bank Branch Visit: Visit the branch where you hold your accounts and request RAAST ID status.
+
+Bank’s Mobile App: Use your bank’s mobile app to check RAAST ID details under the RAAST section.
+
+Bank’s Phone Banking: Call your bank’s phone banking service and inquire about RAAST account details.
+
+Verify Bank Accounts for RAAST Integration
+
+Ensure that the accounts you are trying to connect are integrated with RAAST.
+
+Methods to Check:
+
+Bank’s Website: Look for information on RAAST services and supported accounts.
+
+Customer Support: Contact your bank’s support to confirm which accounts are RAAST-enabled.
+
+Register a New Mobile Number with RAAST
+
+You might need to re-link your mobile number or update RAAST details.
+
+Check Mobile Number for Existing RAAST ID
+
+Check if your mobile number is already registered with RAAST.
+
+Methods to Check:
+
+Mobile App: Check in the RAAST section of your app.
+
+USSD Code: Dial USSD codes provided by your bank to check your RAAST ID status.
+
+Ensure Correct Mobile Number
+
+Verify that the mobile number you're using is correct and matches your CNIC.
+
+Step Details:
+
+Ensure the number is active and correctly registered.
+
+Update with your bank if needed.
+
+Q: Why should I not be hesitant to use RAAST due to constantly hearing about potential fraud risks associated with online payments?
+A:
+It’s understandable to be cautious. Here’s how RAAST mitigates fraud and how you can stay safe:
+
+How RAAST Ensures Safety
+
+Advanced Encryption
+
+Uses secure protocols to protect data.
+
+Two-Factor Authentication (2FA)
+
+Required for transactions.
+
+Fraud Detection Systems
+
+Automatically monitor for suspicious activity.
+
+Regulated by SBP
+
+Supervised by the State Bank of Pakistan.
+
+Security Audits
+
+Regularly audited for vulnerabilities.
+
+Best Practices for Safe Usage
+
+Use Strong Passwords
+
+Combine letters, numbers, and symbols.
+
+Don’t reuse passwords.
+
+Enable 2FA
+
+Activate 2FA in settings.
+
+Monitor Transactions
+
+Regularly check your statements.
+
+Keep Mobile Secure
+
+Don’t share your SIM. Report if lost.
+
+Use Official Platforms
+
+Always use official apps, websites, and USSD codes.
+
+Q: What is Raast?
+A:
+Raast is Pakistan’s first instant payment system, enabling real-time digital payments between individuals, businesses, and government entities. It supports small-value retail payments and provides affordable access to banks, fintechs, and government entities.
+
+Q: What is Raast ID?
+A:
+Raast ID is a simple identifier (currently your mobile number) that links to your bank account. You can share your Raast ID to receive funds without sharing your bank details.
+
+Q: How to create a Raast ID?
+A:
+Log in to your online banking.
+
+Click on "Raast Services."
+
+Select "Raast ID Management" > Register.
+
+Choose your mobile number and link with your bank account.
+
+Enter the OTP.
+
+Your Raast ID is registered successfully.
+
+Q: How do I set up Raast?
+A:
+Same steps as creating a Raast ID—log in, go to Raast Services, register your mobile, and confirm via OTP.
+
+Q: Is Raast ID safe?
+A:
+Yes. RAAST ensures secure payment methods, requires transaction authorization, and includes fraud detection and data protection services.
+
+Q: How to convert Easypaisa to Raast ID?
+A:
+Register a RAAST account using your Easypaisa-registered number. Follow the registration steps to start sending and receiving money using your mobile number.
+
+Q: What is the limit for Raast transfers?
+A:
+The minimum transaction limit is PKR 1. The maximum limit depends on your bank.
+
+Q: Can I change my linked bank account against my Raast ID?
+A:
+Yes. You can de-link your current bank and re-link your Raast ID with another bank account.
+
+Q: Can Raast be used to make international transactions?
+A:
+No. RAAST is currently only for local transfers within Pakistan.
+
+Q: Should I receive an SMS/Email once a transaction is complete?
+A:
+Yes. You will be notified by your bank via SMS or email for successful transactions.
+
+
+
+
+
+Q: How many accounts can be linked with Raast?
+A: No, currently you can only link your RAAST ID with one account.
+
+Q: What is the advantage of Raast payment?
+A:
+Reliability and enhanced security: Raast introduces more secure payment types, ensures that each transaction is authorized by the payer, and offers enhanced data protection and fraud detection services.
+
+Q: Why should I use Raast?
+A:
+Raast connects you with every bank. It offers a simple, fast, secure, and convenient way to transfer money from one bank account to another.
+
+Q: Can I send funds on IBAN number through RAAST?
+A: Yes, you can transfer funds on IBAN number through RAAST.
+
+Q: How do I pay using Raast?
+A: You can send payments to a registered Raast ID or an IBAN for those banks currently active on the Raast network.
+
+Q: Can I change my linked bank account against my Raast ID?
+A:Yes, you can de-link your Raast ID from your current bank account and re-link it with another bank account. For further details, please contact your respective bank.
+
+Q: Can Raast be used to make international transactions?
+A: No, Raast is currently activated for only local transfers within Pakistan.
+
+Q: What is Raast P2M?
+A:Raast P2M QR is Pakistan's first instant payment system by State Bank of Pakistan that enables person-to-merchant digital payments among individuals and businesses instantaneously.
+
+Q: What are the channels to transfer funds via Raast?
+A:
+Raast is available for payments via mobile apps, internet banking, USSD, and branches. Please reach out to your bank to inquire about the available channels.
+
+Q: Can I change my linked bank account against my Raast ID?
+A:
+Yes, you can de-link your Raast ID from your current bank account and re-link it with another. Contact your bank for more information.
+
+Q:What is an Alias?
+A: In Raast, an alias is a user-friendly identifier, like a mobile number, that replaces the need to use a lengthy bank account number for transactions. 
+
+
+
+Q:How Alias work?
+A: Users register their mobile number (or other chosen alias) with their bank account through Raast. When someone wants to send money to that user, they simply use the registered alias, and the funds are instantly transferred to the corresponding bank account. 
+
+
+
+Q:how can I open P2M account on Raast?
+
+A:To open a Raast Person-to-Merchant (P2M) account, you'll need to register your business with a bank or financial institution that offers Raast P2M services. You can either register directly with a bank or through a Payment Service Provider (PSP) or Digital Payment Service Provider (DPSP) partnered with a bank. The specific process will vary depending on the institution you choose, but generally involves providing business details, personal information, and potentially uploading documents. 
+Here's a more detailed breakdown:
+1. Choose a Raast-enabled bank or PSP/DPSP: You'll need to find a bank or PSP/DPSP that has integrated with the Raast P2M system. Some banks, like MCB, offer their own Raast P2M services directly. Others, like Bank Alfalah, partner with PSPs to provide the service. You can also explore options with
+
+
+
+
+
+
+Q: How many banks support Raast Payment?
+A:
+These banks support Raast payments:
+
+Standard Chartered Bank
+
+Askari Bank
+
+Dubai Islamic Bank
+
+Allied Bank
+
+Faysal Bank Limited
+
+Habib Bank
+
+Bank Al Habib
+
+Habib Metro Bank
+
+Bank of Punjab
+
+Soneri Bank
+
+MCB Islamic
+
+MCB Bank
+
+Bank Alfalah
+
+United Bank
+
+Khushhali MFB
+
+Bank of Khyber
+
+Meezan Bank
+
+JS Bank
+
+AlBaraka Bank
+
+NRSP
+
+Summit Bank
+
+Bank Islami
+
+Samba Bank
+
+Telenor MFB (Easypaisa)
+
+Mobilink Microfinance Bank (JazzCash)
+
+HBL Microfinance Bank
+
+HBL Konnect
+
+U Microfinance
+
+National Bank of Pakistan
+
+Silk Bank
+
