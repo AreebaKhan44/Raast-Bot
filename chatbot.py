@@ -1,14 +1,13 @@
 import os
 import streamlit as st
-from langchain_openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 from langchain.docstore.document import Document
+from dotenv import load_dotenv
 
-# Load OpenAI key from Streamlit secrets
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+load_dotenv()
 
 # Load and split FAQ data
 def load_faq_docs():
@@ -26,13 +25,13 @@ def load_faq_docs():
             continue
     return docs
 
-# Create FAISS index
-@st.cache_resource
+# Create or load FAISS index
 def create_faiss_index(documents):
     embeddings = OpenAIEmbeddings()
-    return FAISS.from_documents(documents, embeddings)
+    vectorstore = FAISS.from_documents(documents, embeddings)
+    return vectorstore
 
-# Search FAQ first
+# Search with RAG
 def search_answer(query, vectorstore):
     docs = vectorstore.similarity_search(query, k=1)
     if docs:
@@ -47,43 +46,34 @@ def ask_gpt(query):
 
 # Streamlit UI
 def main():
-    st.set_page_config(page_title="Raast FAQ Bot 💬", layout="centered")
+    st.set_page_config(page_title="Raast FAQ Bot 💬")
     st.title("📌 Raast Chatbot")
 
-    # Initialize session state
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
+    # Initialize chat history
+    if "history" not in st.session_state:
+        st.session_state.history = []
 
-    # Show history
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+    query = st.text_input("Ask your question:")
 
-    # Chat input
-    user_input = st.chat_input("Ask your question about Raast...")
-
-    if user_input:
-        st.session_state.messages.append({"role": "user", "content": user_input})
-        with st.chat_message("user"):
-            st.markdown(user_input)
-
+    if query:
         with st.spinner("Searching..."):
             docs = load_faq_docs()
             index = create_faiss_index(docs)
-            answer = search_answer(user_input, index)
+            answer = search_answer(query, index)
 
             if answer:
-                response = f"✅ {answer}"
+                st.session_state.history.append(("You", query))
+                st.session_state.history.append(("Bot", answer))
             else:
-                response = ask_gpt(user_input)
+                response = ask_gpt(query)
+                st.session_state.history.append(("You", query))
+                st.session_state.history.append(("Bot", response))
 
-        st.session_state.messages.append({"role": "assistant", "content": response})
-        with st.chat_message("assistant"):
-            st.markdown(response)
+    # Display chat history
+    if st.session_state.history:
+        st.markdown("### 💬 Chat History")
+        for speaker, message in st.session_state.history:
+            st.markdown(f"**{speaker}:** {message}")
 
 if __name__ == "__main__":
     main()
-
-
-
-
